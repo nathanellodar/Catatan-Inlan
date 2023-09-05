@@ -1,0 +1,26 @@
+Pertemuan ke 2 (5 september 2023):
+
+- jika lebih dari 100 meter, jangan menggunakan tabel tembaga. Pakai mikrotik atau kabel optik. Tergantung kasus.
+- fungsi switch juga sebagai penguat kabel utp.
+- switch sebagai leyer 2 tcp, osi sebagai network 
+- ketika menggunakan hub tidak bisa mengatur, dia hanya sebagai titik sentral. Berbeda dengan switch, dia bisa mengatur agar tidak saling nabrak saat terjadi komunikasi.
+jika ada tabrakan jika menggunakan hub, akan berdampak pada semua device yang terhubung. Jika menggunakan switch tidak akan seperti ini.
+- cara kerja switch bekerja sesuai tabel mac.
+- switch lebih cepat memindahkan data lebih dari pada router.
+- router selain ada perintah, harus melihat tabel mac. <---------- ini yang membuat dia lebih lambat dari switch.
+ 
+
+CONTOH KASUS KETIKA ROUTER DIGANTI DENGAN SWITCH:
+- kelemahan, switch tidak bisa menghentikan broadcast packet.
+- yang dapat menangani ip broadcast yaitu router.
+- router akan membatasi broadcast domain.
+
+MEKANISME IPV4:
+- ketika pertama kali device di hidupkan, akan merequest ip.
+- dengan mengirimkan pesan tersebut kemana-mana mencari yang berhak memberikan ip.
+- dalam contoh kasus topologi, keseluruhan itu adalah satu broadcast.
+- jika menggunakan router, ketika device dinyalakan, ia tidak akan keluar dari broadcast domain dari ruangan tempat dia berada.
+
+
+*jika tidak menggunakan vlan, lebih lambat komunikasi dalam sebuah topologi.
+*pigtail penghubung acsess point ke antena
